@@ -56,7 +56,7 @@ struct UserTextfFiled: View {
                 }
              
             }
-            .navigationTitle("Hello Picker Parker?")
+            .navigationTitle("Hello Picker?")
             .toolbar {
                 ToolbarItemGroup(placement: .keyboard) {
                     Spacer()

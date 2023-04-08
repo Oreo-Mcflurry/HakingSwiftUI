@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BDE6C9F29E102F600271EE0 /* Project1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDE6C9E29E102F600271EE0 /* Project1View.swift */; };
 		B844CF5429CFC90B00E0E2FC /* HakingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B844CF5329CFC90B00E0E2FC /* HakingSwiftUIApp.swift */; };
 		B844CF5629CFC90B00E0E2FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B844CF5529CFC90B00E0E2FC /* ContentView.swift */; };
 		B844CF5829CFC90C00E0E2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B844CF5729CFC90C00E0E2FC /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BDE6C9E29E102F600271EE0 /* Project1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1View.swift; sourceTree = "<group>"; };
 		B844CF5029CFC90B00E0E2FC /* HakingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HakingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B844CF5329CFC90B00E0E2FC /* HakingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HakingSwiftUIApp.swift; sourceTree = "<group>"; };
 		B844CF5529CFC90B00E0E2FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,9 +84,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDE6C9D29E102CA00271EE0 /* Project 1 */ = {
+			isa = PBXGroup;
+			children = (
+				B844CF5329CFC90B00E0E2FC /* HakingSwiftUIApp.swift */,
+				B844CF7E29CFCE0A00E0E2FC /* EnterName.swift */,
+				B844CF8229CFD6C000E0E2FC /* UserTextfFiled.swift */,
+				B844CF8029CFD06F00E0E2FC /* Loop.swift */,
+				0BDE6C9E29E102F600271EE0 /* Project1View.swift */,
+				B844CF8829D0263300E0E2FC /* Challenge */,
+			);
+			path = "Project 1";
+			sourceTree = "<group>";
+		};
+		0BDE6CA029E103EE00271EE0 /* Project 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Project 2";
+			sourceTree = "<group>";
+		};
 		B844CF4729CFC90B00E0E2FC = {
 			isa = PBXGroup;
 			children = (
+				0BDE6CA029E103EE00271EE0 /* Project 2 */,
+				0BDE6C9D29E102CA00271EE0 /* Project 1 */,
 				B844CF5229CFC90B00E0E2FC /* HakingSwiftUI */,
 				B844CF6429CFC90C00E0E2FC /* HakingSwiftUITests */,
 				B844CF6E29CFC90C00E0E2FC /* HakingSwiftUIUITests */,
@@ -105,12 +129,7 @@
 		B844CF5229CFC90B00E0E2FC /* HakingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				B844CF5329CFC90B00E0E2FC /* HakingSwiftUIApp.swift */,
 				B844CF5529CFC90B00E0E2FC /* ContentView.swift */,
-				B844CF7E29CFCE0A00E0E2FC /* EnterName.swift */,
-				B844CF8029CFD06F00E0E2FC /* Loop.swift */,
-				B844CF8229CFD6C000E0E2FC /* UserTextfFiled.swift */,
-				B844CF8829D0263300E0E2FC /* Challenge */,
 				B844CF5729CFC90C00E0E2FC /* Assets.xcassets */,
 				B844CF5929CFC90C00E0E2FC /* HakingSwiftUI.entitlements */,
 				B844CF5A29CFC90C00E0E2FC /* Preview Content */,
@@ -282,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDE6C9F29E102F600271EE0 /* Project1View.swift in Sources */,
 				B844CF5629CFC90B00E0E2FC /* ContentView.swift in Sources */,
 				B844CF8529D0229D00E0E2FC /* Challenge.swift in Sources */,
 				B844CF8329CFD6C000E0E2FC /* UserTextfFiled.swift in Sources */,

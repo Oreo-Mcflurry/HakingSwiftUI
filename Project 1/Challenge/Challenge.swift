@@ -9,7 +9,6 @@ import SwiftUI
 
 struct Challenge: View {
     var body: some View {
-        NavigationView{
                 Form{
                     Section{
                         NavigationLink(
@@ -34,7 +33,7 @@ struct Challenge: View {
                         Text("If you were going for length conversion you might have")
                     }
                 .navigationTitle("Day 19 Challenge day")
-            }
+            
         }
     }
 }

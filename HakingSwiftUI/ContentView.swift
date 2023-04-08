@@ -10,27 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-                Form{
-                NavigationLink(
-                    destination: EnterName()
-                    , label: {
-                        Text("EnterName.swift")
-                    })
-                NavigationLink(
-                    destination: Loop()
-                    , label: {
-                        Text("Loop.swift")
-                    })
-                NavigationLink(
-                    destination: UserTextfFiled()
-                    , label: {
-                        Text("UserTextFiled.swift")
-                    })
-                    NavigationLink(
-                        destination: Challenge()
-                        , label: {
-                            Text("Challenge.swift")
-                        })
+            Form{
+                NavigationLink(destination: Project1View(), label: {
+                    Text("Project 1")
+                })
             }
             .navigationTitle("100 Days of SwiftUI")
         }
