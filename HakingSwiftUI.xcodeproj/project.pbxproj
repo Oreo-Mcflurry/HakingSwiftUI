@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0BDE6C9F29E102F600271EE0 /* Project1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDE6C9E29E102F600271EE0 /* Project1View.swift */; };
+		B826405A29E1509E00C03E92 /* Project2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826405929E1509E00C03E92 /* Project2View.swift */; };
+		B826405C29E151F000C03E92 /* Gradation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826405B29E151F000C03E92 /* Gradation.swift */; };
+		B826405E29E1550900C03E92 /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826405D29E1550900C03E92 /* GuessTheFlag.swift */; };
 		B844CF5429CFC90B00E0E2FC /* HakingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B844CF5329CFC90B00E0E2FC /* HakingSwiftUIApp.swift */; };
 		B844CF5629CFC90B00E0E2FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B844CF5529CFC90B00E0E2FC /* ContentView.swift */; };
 		B844CF5829CFC90C00E0E2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B844CF5729CFC90C00E0E2FC /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		0BDE6C9E29E102F600271EE0 /* Project1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1View.swift; sourceTree = "<group>"; };
+		B826405929E1509E00C03E92 /* Project2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Project2View.swift; path = HakingSwiftUI/Project2View.swift; sourceTree = SOURCE_ROOT; };
+		B826405B29E151F000C03E92 /* Gradation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Gradation.swift; path = HakingSwiftUI/Gradation.swift; sourceTree = SOURCE_ROOT; };
+		B826405D29E1550900C03E92 /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GuessTheFlag.swift; path = HakingSwiftUI/GuessTheFlag.swift; sourceTree = SOURCE_ROOT; };
 		B844CF5029CFC90B00E0E2FC /* HakingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HakingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B844CF5329CFC90B00E0E2FC /* HakingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HakingSwiftUIApp.swift; sourceTree = "<group>"; };
 		B844CF5529CFC90B00E0E2FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 		0BDE6CA029E103EE00271EE0 /* Project 2 */ = {
 			isa = PBXGroup;
 			children = (
+				B826405929E1509E00C03E92 /* Project2View.swift */,
+				B826405B29E151F000C03E92 /* Gradation.swift */,
+				B826405D29E1550900C03E92 /* GuessTheFlag.swift */,
 			);
 			path = "Project 2";
 			sourceTree = "<group>";
@@ -306,7 +315,10 @@
 				B844CF8529D0229D00E0E2FC /* Challenge.swift in Sources */,
 				B844CF8329CFD6C000E0E2FC /* UserTextfFiled.swift in Sources */,
 				B844CF7F29CFCE0A00E0E2FC /* EnterName.swift in Sources */,
+				B826405C29E151F000C03E92 /* Gradation.swift in Sources */,
 				B844CF5429CFC90B00E0E2FC /* HakingSwiftUIApp.swift in Sources */,
+				B826405E29E1550900C03E92 /* GuessTheFlag.swift in Sources */,
+				B826405A29E1509E00C03E92 /* Project2View.swift in Sources */,
 				B844CF8729D0262400E0E2FC /* Temperature.swift in Sources */,
 				B844CF8129CFD06F00E0E2FC /* Loop.swift in Sources */,
 			);

@@ -14,6 +14,10 @@ struct ContentView: View {
                 NavigationLink(destination: Project1View(), label: {
                     Text("Project 1")
                 })
+                
+                NavigationLink(destination: Project2View(), label: {
+                    Text("Project 2")
+                })
             }
             .navigationTitle("100 Days of SwiftUI")
         }
